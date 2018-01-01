@@ -1,0 +1,5 @@
+-clean up home page
+-CSP header
+-CSP reporting
+-visitor geolocation
+-header summaries
