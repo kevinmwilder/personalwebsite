@@ -3,3 +3,6 @@
 - CSP reporting  
 - visitor geolocation  
 - header summaries  
+- add custom domain  
+- use Let's Encrypt SSL cert  
+- force https  
