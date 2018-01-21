@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using site;
 
 namespace site.Pages
 {
@@ -12,7 +13,8 @@ namespace site.Pages
 
         public void OnGet()
         {
-           Message =HttpContext.Connection.RemoteIpAddress.ToString();
+           Message = GeoLocation.LocationFromIp(
+           HttpContext.Connection.RemoteIpAddress.ToString());
         }
     }
 }
